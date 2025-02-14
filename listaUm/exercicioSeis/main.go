@@ -8,7 +8,7 @@ func main(){
 
 	fmt.Print("digite um raio de um circulo: ")
 	fmt.Scan(&raio)
-	formulaRaio = raio / 2
+	formulaRaio = raio / 2.0
 
 	fmt.Print("Valor do diametro: ", formulaRaio)
 }
